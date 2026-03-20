@@ -12,7 +12,7 @@
 }
 
 body{
-    background: linear-gradient(130deg, #83a8df,#c3cfe2);
+    background: linear-gradient(130deg, #dfdfdf,#95ddff);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -53,6 +53,9 @@ h1::after{
 }
 
 #generate-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(45deg, #667eea, #764ba2);
     color: white;
     border:none;
