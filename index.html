@@ -6,9 +6,10 @@
     <title>Estética para MMV</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="container" data-aos="fade-up" data-aos-duration="3000">
         <h1>Gere cores aleatórias para uma estética!</h1>
         <button id="generate-btn">
             <i class="fas fa-sync-alt"></i>
@@ -28,7 +29,7 @@
 
             <!--COLOR BOX 2-->
             <div class="color-box">
-                <div class="color" style="background-color: #ff80ee;"></div>
+                <div class="color" style="background-color: #aedfff;"></div>
                 <div class="color-info">
                     <span class="hex-value">#ff80ee</span>
                     <i class="fa fa-copy copy-btn" title="Copiar cor!"></i>
@@ -37,7 +38,7 @@
 
             <!--COLOR BOX 3-->
             <div class="color-box">
-                <div class="color" style="background-color: #5bc580;"></div>
+                <div class="color" style="background-color: #6ed0ee;"></div>
                 <div class="color-info">
                     <span class="hex-value">#5bc580</span>
                     <i class="fa fa-copy copy-btn" title="Copiar cor!"></i>
@@ -45,7 +46,7 @@
             </div>
             <!--COLOR BOX 4-->
             <div class="color-box">
-                <div class="color" style="background-color: #b5f5fe;"></div>
+                <div class="color" style="background-color: #66c5fc;"></div>
                 <div class="color-info">
                     <span class="hex-value">#b5f5fe</span>
                     <i class="fa fa-copy copy-btn" title="Copiar cor!"></i>
@@ -53,7 +54,7 @@
             </div>
             <!--COLOR BOX 5-->
             <div class="color-box">
-                <div class="color" style="background-color: #e1f3a1;"></div>
+                <div class="color" style="background-color: #3dc1ff;"></div>
                 <div class="color-info">
                     <span class="hex-value">#e1f3a1</span>
                     <i class="fa fa-copy copy-btn" title="Copiar cor!"></i>
@@ -61,8 +62,10 @@
             </div>
         </div>    
     </div>
-
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
